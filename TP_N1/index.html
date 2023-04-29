@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPNº1</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-warning">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 text-dark">T.P.Nº1</span>
+        </div>
+    </nav>
+ 
+    <div class="container mt-3">
+        <h1 class="display-6">Alta producto</h1>
+    
+        <div class="row"> 
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12"> 
+
+                <div class="mb3"> 
+                            <label class="form-label">Descripción</label>
+                            <input class="form-control" type="text">
+                        </div>    
+                        <div class="mb3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Detalle</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                        </div> 
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">$</span>
+                                        <input placeholder="25.5" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">N°</span>
+                                        <input placeholder="Stock" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    </div>
+                                </p> 
+                            </div>
+                            <div class="col-lg-6">
+                                <p>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">$</span>
+                                        <input placeholder="Precio de venta" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                       
+                                        <select class="form-select" id="validationCustom04" required>
+                                            <option selected disabled value="">Categoría</option>
+                                            <option>
+                                                de primera
+                                            </option>
+                                            <option>
+                                                de segunda
+                                            </option>
+                                            <option>
+                                                de cuarta
+                                            </option>
+                                          </select>
+                                    </div>
+                                </p> 
+                            </div>
+                        </div>          
+                        <p>
+                        <div class="mb3">
+                            <div class="d-grid gap-2 justify-content-md-end">
+                                <button class="btn btn-outline-success">Guardar prodcuto</button>
+                            </div>
+                        </div>
+                        </p>
+            </div>
+                
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="row mb3">
+                    <p>
+                    <div class="col-lg-6">
+                        <label class="form-label">Fecha de alta</label>
+                        <input class="form-control" type="date">
+                    </div>
+                    <div class="col-lg-6">
+                        <label class="form-label">Hora</label>
+                        <input class="form-control" type="time">
+                    </div>
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                    <img src="WhatsApp.jpeg" class="img-fluid" alt="">
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
+
+
+
+
+
